@@ -1,0 +1,195 @@
+1.  What will happen when you execute the following cvde? 
+
+ #inlcude<iostream.h> 
+
+ void main() 
+
+ int i =0; 
+
+ i =400*400/400 
+
+ cout<<I; 
+
+  
+
+ solution: 
+
+ #include <iostream> 
+
+  
+
+ int main() { 
+
+     long i=0; 
+
+     i=400*400/400; 
+
+     std::cout<<i; 
+
+      
+
+ } 
+
+ output:400 
+
+  
+
+ 2.2. Identify the error in the following program_ 
+
+ Include<iostrearn..h> 
+
+ void main() 
+
+  { 
+
+ Int num[] ={1,2,3,4,5,6,7}; 
+
+ nurn [1]        =[1] num ?cout<<”success” : cout<<"Errior"; 
+
+  
+
+ solution:- 
+
+ #include<iostream> 
+
+ int main() 
+
+  { 
+
+ int num[] ={1,2,3,4,5,6,7}; 
+
+ num [1]=num[1]? 
+
+ std::cout<<"success"; 
+
+ std::cout<<"Error"; 
+
+ } 
+
+  
+
+ 3.identify the error in the following program.  
+
+ #include<iostream.h> 
+
+ void main() I 
+
+  switch(1) 
+
+ { 
+
+ defaul tt 
+
+ case 4:  
+
+ case 5: 
+
+ break.;  
+
+ case 1 
+
+ continue; 
+
+ case 2; case 3; break; 
+
+ i--; 
+
+ } 
+
+ } 
+
+ solution: 
+
+  case1: 
+
+  continue; 
+
+  
+
+ 4. Identify the error in the following program. 
+
+ #include<iostream.h> 
+
+ #define pi 3.14 
+
+  int squareArea(int &); 
+
+ int circlearea(int &) ;  
+
+ voi d main() 
+
+ { 
+
+ int a=10; 
+
+ cout<< squareArea(A); 
+
+ cout<< circleArea(a) ; 
+
+ cout<<a<< endl ; 
+
+ } 
+
+ int squareArea(int &a) 
+
+ { 
+
+ return a *== a; 
+
+ } 
+
+ int circleArea(int &r) 
+
+ { 
+
+ return r = pi*r*r; 
+
+ ) 
+
+ solution: 
+
+ return a *== a; should be return a*=a;  
+
+  
+
+ 5.  Find errors, if any, in the following c++ statements. 
+
+ (a) long Boat x.; 
+
+ long float x; or double x: 
+
+ (b) char *cp = vp;         
+
+ char *cp=(char*)vp; 
+
+ (c)        int  code=three; 
+
+ no error 
+
+ (d)        int *p=new;         
+
+ int *p=new[10]; 
+
+ (e)        int const *p=total 
+
+ int const *p=&total; 
+
+ (g)        coast int  array_size; 
+
+ const int  array_size=5; 
+
+ (h) int & nurnber = 100; 
+
+ int number=100; 
+
+ (i) float p=2345; 
+
+ float p=23.45; 
+
+ (j) int else=234: 
+
+ int a=234; 
+
+ (k) char a=’welcome’; 
+
+ char a="welcome";
